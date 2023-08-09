@@ -32,6 +32,7 @@ export default function StarRating({
   defaultRating = 0,
   onSetRating,
 }) {
+  
   const [rating, setRating] = useState(defaultRating);
   const [tempRating, setTempRating] = useState(0);
 
